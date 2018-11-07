@@ -1,0 +1,173 @@
+<html>
+<head>
+<style>
+{
+	box-sizing:border-box;
+	selector{property:value}
+}
+body {
+		font-family:fantasy;
+		padding:15px;
+		background:#c9c9c9;
+	}
+.header{padding: 30px;
+    text-align: center;
+    background: white;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #487;
+    font-size: 20px;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    font-size: 20px;
+}Blog Title */
+.header
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 35%;
+    padding-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Welcome to CHRISTINE'S graden.</h1>
+  <p>This is a homework for Introduction to Computer.</p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.facebook.com/profile.php?id=100002649873997" style="float:right">Facebook</a>
+  <a href="https://koobii.com.tw/point/koobii%E4%BA%BA%E6%B0%A3%E5%9A%B4%E9%81%B8231%E3%80%90%E6%AD%A6%E9%99%B5%E9%AB%98%E4%B8%AD%EF%BC%8D%E5%B0%B9%E5%8F%AF%E8%A6%AA%E3%80%91-%E5%96%9C%E6%AD%A1%E7%83%B9%E9%A3%AA%E7%9A%84%E7%94%9C%E7%BE%8E/">Koobii</a>
+  
+  <a href="https://www.youtube.com/watch?v=2bNUhL3b8bs">band</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Koobii .</h2>
+      <h3>This is a coverage(?) about me.</h3>
+      <div></div>
+      <p>Check the page in the "koobii" button. </p>
+      <p></p>
+    </div>
+    <div class="card">
+      <h2>My hobby--Cooking</h2>
+      <h5>with my partner, Aug 14, 2016</h5>
+      <div><img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/13895092_1279910285367147_964551356737945566_n.jpg?_nc_cat=105&_nc_ht=scontent-tpe1-1.xx&oh=6721814193e62316e6a8ce68485cf18a&oe=5C87CD3B"width="450" height="480"></div>
+      <p>I joined cooking club when i was a senior high school student. </p>
+      <p>We cooked together and had a lot of fun then.This club is the most important part of my senior high life.I love cooking and i love to share my desserts with my friends.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;"><img src="https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/19149432_1320665638031753_8397247151826405626_n.jpg?_nc_cat=102&_nc_ht=scontent-tpe1-1.xx&oh=c509dccb761572174f966f378af87860&oe=5C445E10" alt="" width="100" height="100">
+</div>
+      <p>My birthday is on 2000/07/13.</p>
+      <p>I am 18 years old now.</p>
+      <p>By the way,if you notice that there is a band button beside "koobii",this is the vedio of our performance.
+      I am the drumer!!!</p>
+
+    </div>
+    <div class="card">
+      <h3>Things that I am interesting in:</h3>
+      <p>food!!!</p>
+      <p>music</p>
+      <p>fashion</p>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>My instagram:christine_0713</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>I am glad that this is the last sentence.</h2>
+  <h2>Thank you for your visitiing.</h2>
+</div>
+</body>
+</html>
